@@ -53,6 +53,8 @@ best.pt為模型檔案，test.mp4為測試影片。
 .txt”，並且” objectdetect\runs\detect\object_trackingxx”(結尾的xx為數字)資料夾底下會產生模型偵測物件的影片檔
  
 ### Deep-Q-Learning強化學習模型使用
+Deep-Q-Learning強化學習模型根據車流量以及等待車輛數來決定燈號。
+
 1.	開啟Anaconda prompt並進入虛擬環境後，cd進入” SA204546_demo\ deep_q_learning”資料夾
 ```python
 cd 資料夾名稱
