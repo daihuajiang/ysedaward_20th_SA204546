@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<input>
+		<net-file value="enviroment.net.xml"/>
+		<route-files value="episode_routes.rou.xml"/>
+	</input>
+	<output>
+		<full-output value="episode_fulloutput.xml"/>
+	</output>
+	<time>
+		<begin value="0"/>
+		<end value="3600"/>
+	</time>
+</configuration>
