@@ -16,19 +16,23 @@
 環境及安裝軟體:
 軟體在Windows10/Windows11上運行
 1.	電腦需有支援cuda的nvidia GPU，並安裝Cuda和cudnn(版本須匹配)
+
 Cuda官網: https://developer.nvidia.com/cuda-downloads
+
 Cudnn官網: https://developer.nvidia.com/rdp/cudnn-archive
 
 2.	安裝Anaconda3
+
 Anaconda3官網: https://www.anaconda.com/products/distribution
 
 3.	安裝完成Anaconda3之後，打開anaconda prompt，自行創立虛擬環境，並在該環境安裝以下套件:
+
 安裝套件:
-numpy
-tensorflow>=2.0.0
-pytorch>=1.0.0
-opencv-python
-matplotlib
+* numpy
+* tensorflow>=2.0.0
+* pytorch>=1.0.0
+* opencv-python
+* matplotlib
 
 4.	安裝SUMO
 SUMO官網: https://sumo.dlr.de/docs/Downloads.php
@@ -46,7 +50,9 @@ cd 資料夾名稱
 python detect.py --weights best.pt --conf 0.1 --source test.mp4
 ```
 best.pt為模型檔案，test.mp4為測試影片。
+
 測試影片下載鏈結: https://drive.google.com/file/d/1rTSDYg1_3LOfMmNjWy83Md4nsBEqdusG/view?usp=drive_link
+
 模型檔案下載鏈結: https://drive.google.com/file/d/11dwylaPDtCaj_VvLnqgFoCaGIOBylJXL/view?usp=drive_link
 
 4.	指令執行完畢後，在執行指令的資料夾中，會產生”per10.txt”及”per300
